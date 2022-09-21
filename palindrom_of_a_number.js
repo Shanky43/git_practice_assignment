@@ -6,7 +6,7 @@ while(num>0){
   rev=rev*10+rem;
   num=Math.floor(num/10);
 }
-if(num==temp){
+if(rev==temp){
   console.log("The given number is a Palindrome");
 }else{
   console.log("The given number is not a Palindrome");
